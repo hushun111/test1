@@ -52,7 +52,7 @@ header,
 html,
 body,
 header,
-.view {
+.view4 {
   height: 100%;
 }
 
@@ -61,7 +61,7 @@ header,
   body,
   header,
   .view {
-    height: 100vh;
+   height: 100vh;
   }
 }
 
