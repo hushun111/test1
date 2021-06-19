@@ -41,6 +41,9 @@
                   <a class="nav-link" href="#suo" data-offset="90">娑罗道馆</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="#tu" data-offset="90">图集</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="#huo" data-offset="90">火箭队</a>
                 </li>
                 <li class="nav-item">
@@ -90,7 +93,7 @@
 
     <!--Main layout-->
     <main>
-        <section id="projects" class="text-center py-5" style="background-color:white;">
+        <section id="projects" class="text-center py-5" style="background-color:rgb(238, 198, 233);">
 
             <!-- Container -->
             <div id="suo" class="container">
@@ -232,6 +235,94 @@
             <!-- Container -->
       
           </section>
+
+
+<!--Section: gallery-->
+<section id="tu" class="text-center py-5" style="background-color: gainsboro;">
+
+  <!-- Container -->
+  <div class="container">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold mb-5" style="color: darkturquoise;">宝可梦图集</h2>
+    <!-- Section description -->
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <div id="mdb-lightbox-ui"></div>
+
+        <div class="mdb-lightbox">
+
+          <figure class="col-md-4">
+            <a href="img/118.jpg" data-size="1600x1067">
+              <img src="img/118.jpg" class="img-fluid z-depth-1-half">
+            </a>
+          </figure>
+
+          <figure class="col-md-4">
+            <a href="img/119.jpg" data-size="1600x1067">
+              <img src="img/119.jpg" height="237" width="320"  class="z-depth-1-half" />
+            </a>
+          </figure>
+
+          <figure class="col-md-4">
+            <a href="img/120.jpg" data-size="1600x1067">
+              <img src="img/120.jpg" height="237" width="350" class="z-depth-1-half" />
+            </a>
+          </figure>
+
+          <figure class="col-md-4">
+            <a href="img/121.jpg" data-size="1600x1067">
+              <img src="img/121.jpg" class="img-fluid z-depth-1-half" />
+            </a>
+          </figure>
+
+          <figure class="col-md-4">
+            <a href="img/122.jpg" data-size="1600x1067">
+              <img src="img/122.jpg" height="245" class="z-depth-1-half" />
+            </a>
+          </figure>
+
+          <figure class="col-md-4">
+            <a href="img/123.jpg" data-size="1600x1067">
+              <img src="img/123.jpg" height="245" width="350" class="z-depth-1-half" />
+            </a>
+          </figure>
+
+          <figure class="col-md-4">
+            <a href="img/124.jpg" data-size="1600x1067">
+              <img src="img/124.jpg" class="img-fluid z-depth-1-half" />
+            </a>
+          </figure>
+
+          <figure class="col-md-4">
+            <a href="img/125.jpg" data-size="1600x1067">
+              <img src="img/125.jpg" height="212" width="330" class="z-depth-1-half" />
+            </a>
+          </figure>
+
+          <figure class="col-md-4">
+            <a href="img/126.jpg" data-size="1600x1067">
+              <img src="img/126.jpg" width="350" height="212" class="z-depth-1-half" />
+            </a>
+          </figure>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- Container -->
+
+</section>
+<!--Section: gallery-->
+
+
+
+
+
 
           <section id="huo" class="text-center py-5" style="background-color:rgb(248, 239, 239);">
 
@@ -511,7 +602,11 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Your custom scripts (optional) -->
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+     $(function () {
+      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+    </script>
 
 </body>
 
